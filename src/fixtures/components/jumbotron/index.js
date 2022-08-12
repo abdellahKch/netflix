@@ -1,4 +1,14 @@
 import React from "react";
-export default function Jumbotron(){
-    return (<p>i'm the jumbo</p>)
+import { Inner, Container } from "./styles/jumbotron"
+export default function Jumbotron( { children , direction = "row", ...restProp}){
+    
+    return (
+       <Inner direction = { direction }>
+            Hello world !
+        </Inner>
+    )
+}
+
+Jumbotron.Container = function JumbotronContainer({children, ...restProps}) {
+    return <Container { ...restProps}>{children}</Container>
 }
