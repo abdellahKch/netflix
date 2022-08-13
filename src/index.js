@@ -1,8 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
 import App from './app';
-
-render(<App></App>,document.getElementById('root'));
+import  {GlobalStyles}  from "./global-styles"
+import "normalize.css";
+render(<><GlobalStyles /><App></App></>,document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
