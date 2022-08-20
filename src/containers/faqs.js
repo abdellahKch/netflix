@@ -9,7 +9,7 @@ export function FaqsContainer(){
                   <Accordion.Header>{item.header}</Accordion.Header>
                   <Accordion.Body>{item.body}</Accordion.Body>
                </Accordion.Item>
-            ))}
+            ))} 
             </Accordion.Frame>
             
            </Accordion>)
