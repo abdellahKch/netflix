@@ -8,8 +8,8 @@ export default function App() {
      <Routes>
       <Route exact path ={ROUTES.HOME} element={<Home></Home>}></Route>
       <Route exact path = {ROUTES.BROWSE} element = {<Browse></Browse>}></Route>
-      <Route exact path = {ROUTES.SING_IN} element={<Signin></Signin>}></Route>
-      <Route exact path = {ROUTES.SING_UP} element = {<Signup></Signup>}></Route>
+      <Route exact path = {ROUTES.SIGN_IN} element={<Signin></Signin>}></Route>
+      <Route exact path = {ROUTES.SIGN_UP} element = {<Signup></Signup>}></Route>
      </Routes>
    </BrowserRouter>
   )

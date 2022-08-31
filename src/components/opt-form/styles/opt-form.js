@@ -1,14 +1,15 @@
 import styled from 'styled-components/macro';
 
 export const Container = styled.div`
+  border-bottom: 8px solid #222;
+  padding:0px 0px 200px 0px;
   display: flex;
   justify-content: center;
   height: 100%;
-  margin-top: 20px;
   flex-wrap: wrap;
   @media (max-width: 1000px) {
     flex-direction: column;
-    align-items: center;
+    align-items: center;  
   }
 `;
 
